@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">This is our first JavaScript Session</h1>
+    <p>Also we are going to test our first live server</p>
+    <p id="result">Result will be shown here...</p>
+    
+    <!-- external content -->
+    <h1>Here content will load from external JS file</h1>
+    <p id="content"></p>
+    <!-- option 1: in page script -->
+    <script>
+        var session = "Fourth Semeseter: Scripting Language - First JS Session";
+        console.log(session);
+        console.log("Hello, JavaScript enthusiast");
+
+        var title = document.getElementById("title");
+        title.innerHTML = session;
+
+        // testing sum of two numbers
+        var num1 = 14;
+        var num2 = 20;
+        var sum = num1 + num2;
+        console.log(sum);
+        var result = document.getElementById("result");
+        result.innerHTML = "Sum of two numbers: " + sum ;
+    </script>
+
+    <!-- option 2: external file -->
+    <script src="demo.js"></script>
+     
+</body>
+</html>
