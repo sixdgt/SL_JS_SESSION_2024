@@ -24,4 +24,15 @@ for (var i = 0; i < 100; i++){
 }
 
 // 2. greater numbers between two numbers
-// 3. power of self number
+
+function findGreaterNumbers(numOne, numTwo){
+    if(numOne >= numTwo){
+        var greaterNumbers = [];
+        for(var i = numOne; i >= numTwo; i--){
+            greaterNumbers.push(i);
+        }
+        console.log(greaterNumbers);
+    } else {
+        console.log("Please enter the first number greater than or equal to the second number");
+    }
+}
