@@ -78,6 +78,6 @@ function checkLetCase(){
         let count = 1;
         console.log(count); // 1
     }
-    console.log(count); // ReferenceError: count is not defined
+    //console.log(count); // ReferenceError: count is not defined
 }
 checkLetCase();
