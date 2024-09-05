@@ -65,6 +65,7 @@ body {
     border-radius: 0px;
     color: var(--primary-color-medium);
     font-weight: 300;
+    background-color: var(--secondary-color-light);
 }
 
 .content-form label {
@@ -87,4 +88,10 @@ body {
     background-color: var(--primary-color);
     color: var(--secondary-color-light);
     transition: 0.25s ease-in-out;
+}
+
+span {
+    color: #FF0000;
+    font-size: var(--font-size-tiny) / 2;
+    font-weight: 300;
 }
